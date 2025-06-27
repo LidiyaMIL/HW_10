@@ -1,0 +1,75 @@
+    1  git --version
+    2  ls
+    3  cd desktop
+    4  cd Desktop
+    5  cd ~
+    6  ls
+    7  cd Desktop
+    8  ls
+    9  cd..
+   10  pwd
+   11  cd data
+   12  pwd
+   13  mkdir Lesson
+   14  ls
+   15  touch empty.txt
+   16  ls
+   17  clear
+   18  vim empty.txt
+   19  nano empty.txt
+   20  cat empty.txt
+   21  rm empty.txt
+   22  ping googl.com
+   23  date
+   24  whoami
+   25  clear
+   26  cd Git
+   27  cd git
+   28  cd Git
+   29  ls
+   30  cd Desktop
+   31  cd Git
+   32  history -c && rm ~
+   33  clear
+   34  cd GIT
+   35  clear
+   36  cd Desktop
+   37  clear
+   38  ls
+   39  clear
+   40  git config --global user.name "Lidiya Miller"
+   41  clear
+   42  ls
+   43  cd Desktop
+   44  cd GIT
+   45  git config --global user.name "Lidiya Miller"
+   46  git config --global user.email 5746837@gmail.com
+   47  pwd
+   48  git clone https://github.com/LidiyaMIL/HW_10.git
+   49  cd HW_10
+   50  touch text_ignore.txt
+   51  nano .gitignore
+   52  git status
+   53  git add .
+   54  git status
+   55  git commit -m "changed"
+   56  git push
+   57  touch main_test.txt
+   58  git add .
+   59  git status
+   60  git commit -m "new file"
+   61  git checkout -b develop
+   62  git branch
+   63  git checkout develop
+   64  touch develop_test.txt
+   65  git add .
+   66  git commit -m "file develop"
+   67  nano develop_test.txt
+   68  git status
+   69  git add .
+   70  git commit -m "changes in develop"
+   71  git checkout main
+   72  git merge develop
+   73  git branch
+   74  git status
+   75  git log
